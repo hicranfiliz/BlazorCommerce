@@ -1,0 +1,9 @@
+﻿@page "/"
+@page "/{categoryUrl}"
+
+<ProductList />
+
+@code{
+    [Parameter]
+    public string CategoryUrl { get; set; }
+}
